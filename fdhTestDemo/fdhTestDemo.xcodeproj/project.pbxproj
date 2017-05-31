@@ -15,6 +15,7 @@
 		D26BF65E1EDE7775007A0775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26BF65C1EDE7775007A0775 /* LaunchScreen.storyboard */; };
 		D26BF6691EDE7775007A0775 /* fdhTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26BF6681EDE7775007A0775 /* fdhTestDemoTests.m */; };
 		D26BF6741EDE7775007A0775 /* fdhTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26BF6731EDE7775007A0775 /* fdhTestDemoUITests.m */; };
+		D26BF6831EDE785D007A0775 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = D26BF6821EDE785D007A0775 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D26BF66F1EDE7775007A0775 /* fdhTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdhTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26BF6731EDE7775007A0775 /* fdhTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fdhTestDemoUITests.m; sourceTree = "<group>"; };
 		D26BF6751EDE7775007A0775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26BF6811EDE785D007A0775 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		D26BF6821EDE785D007A0775 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D26BF65C1EDE7775007A0775 /* LaunchScreen.storyboard */,
 				D26BF65F1EDE7775007A0775 /* Info.plist */,
 				D26BF64E1EDE7774007A0775 /* Supporting Files */,
+				D26BF6811EDE785D007A0775 /* Dog.h */,
+				D26BF6821EDE785D007A0775 /* Dog.m */,
 			);
 			path = fdhTestDemo;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				D26BF6561EDE7775007A0775 /* ViewController.m in Sources */,
 				D26BF6531EDE7775007A0775 /* AppDelegate.m in Sources */,
+				D26BF6831EDE785D007A0775 /* Dog.m in Sources */,
 				D26BF6501EDE7775007A0775 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
