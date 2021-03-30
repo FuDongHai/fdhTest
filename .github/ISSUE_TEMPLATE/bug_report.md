@@ -9,9 +9,9 @@ assignees: ''
 
 < !---在标题中提供一个问题的概要-->
 
-< !---提供Java SDK版本号-->
+< !---提供Java SDK版本号('java -version')-->
 
-< !---提供Server SDK版本号-->
+< !---提供Server SDK版本号(找引入的'im-sdk-core')-->
 
 < !---问题描述，尽可能的详细些-->
 
