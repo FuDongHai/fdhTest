@@ -7,14 +7,10 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+< !---在标题中提供一个问题的概要-->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+< !---提供Server SDK版本号-->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+< !---清晰简洁的描述您想要的功能-->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+< !---清晰简洁地描述您考虑过的替代解决方案或功能-->
