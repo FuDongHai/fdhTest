@@ -1,5 +1,5 @@
-# repoCase1()，repoCase2()，repoCase3() the proxy IP, port, and URI are all the same，but only repoCase1() throws a 403 exception
-## example：
+#### repoCase1()，repoCase2()，repoCase3() the proxy IP, port, and URI are all the same，but only repoCase1() throws a 403 exception
+##### example：
 
 ```java
     @Test
@@ -18,7 +18,7 @@
     }
 ```
 
-# exception：
+#### exception：
 
 ```
 reactor.core.Exceptions$ReactiveException: io.netty.handler.proxy.HttpProxyHandler$HttpProxyConnectException: http, none, /ip:18888 => host:80, status: 403 Access violation
@@ -43,7 +43,7 @@ reactor.core.Exceptions$ReactiveException: io.netty.handler.proxy.HttpProxyHandl
     }
 ```
 
-# I don't know why I would report 403 when using reactor netty to access the address of the HTTP protocol? For your help, thank you
+#### I don't know why I would report 403 when using reactor netty to access the address of the HTTP protocol? For your help, thank you
 
 * Reactor version(s) used: 3.4.3
 * Other relevant libraries versions (eg. `netty`, ...): netty 4.1.59.Final
